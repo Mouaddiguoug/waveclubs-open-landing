@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-wave-navy: #08102A;
+  --color-wave-navy-light: #0D1A3E;
+  --color-wave-blue: #0EA5E9;
+  --color-wave-cyan: #06B6D4;
+  --color-wave-surface: #F0F6FF;
+  --color-wave-muted: #64748B;
+  --color-wave-border: #E2E8F0;
+
+  --font-display: var(--font-syne), sans-serif;
+  --font-sans: var(--font-dm-sans), sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #0F172A;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Primary button — black base, blue radial glow on hover ── */
+.btn-primary {
+  background: #080808;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  transition: background 350ms ease;
+}
+
+.btn-primary:hover {
+  background: radial-gradient(
+    ellipse at 50% -40%,
+    rgba(14, 165, 233, 0.6) 0%,
+    #080808 68%
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
