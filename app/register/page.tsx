@@ -127,7 +127,6 @@ function LeftPanel({ regType }: { regType: RegistrationType | null }) {
                   <span className="text-[13px] font-semibold text-white">{s.name}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="text-[12px]" style={{ color: "rgba(255,255,255,0.40)" }}>{s.date}</span>
                   {s.type === "Grand Final" && (
                     <span
                       className="text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full"

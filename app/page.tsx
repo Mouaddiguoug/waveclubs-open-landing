@@ -47,10 +47,10 @@ const categories = [
 ];
 
 const stops = [
-  { n: "01", name: "Taghazout", region: "Souss-Massa", date: "25 November 2026", type: "Qualifier" },
-  { n: "02", name: "Imsouane",  region: "Agadir-Ida",  date: "10 December 2026", type: "Qualifier" },
-  { n: "03", name: "Essaouira", region: "Marrakech",   date: "25 December 2026", type: "Qualifier" },
-  { n: "04", name: "Agadir",    region: "Souss-Massa", date: "10 January 2027",  type: "Grand Final" },
+  { n: "01", name: "Taghazout", region: "Souss-Massa", date: "November 2026", type: "Qualifier" },
+  { n: "02", name: "Imsouane",  region: "Agadir-Ida",  date: "December 2026", type: "Qualifier" },
+  { n: "03", name: "Essaouira", region: "Marrakech",   date: "December 2026", type: "Qualifier" },
+  { n: "04", name: "Agadir",    region: "Souss-Massa", date: "January 2027",  type: "Grand Final" },
 ];
 
 const prizes = [
@@ -270,17 +270,6 @@ export default function OpenPage() {
                   <p className="text-[15px] leading-[1.75]" style={{ color: "rgba(255,255,255,0.50)" }}>{step.body}</p>
                 </div>
               ))}
-            </div>
-
-            <div
-              className="mt-6 rounded-2xl px-7 py-6 flex flex-col md:flex-row md:items-center gap-4"
-              style={{ background: "rgba(14,165,233,0.08)", border: "1px solid rgba(14,165,233,0.18)" }}
-            >
-              <Users size={20} style={{ color: "#38BDF8" }} className="shrink-0" />
-              <p className="text-[15px] leading-[1.7]" style={{ color: "rgba(255,255,255,0.65)" }}>
-                <span className="font-semibold text-white">Business Cup:</span>{" "}
-                Surf schools and camps enter a roster of up to 5 riders. Their combined individual results across the season form the team score. The camp with the most points at season end wins the Business Cup.
-              </p>
             </div>
           </div>
         </section>
