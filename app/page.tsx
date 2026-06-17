@@ -126,7 +126,7 @@ export default function OpenPage() {
             style={{ background: "radial-gradient(ellipse 80% 40% at 50% 0%, rgba(14,165,233,0.18) 0%, transparent 70%)" }}
           />
 
-          <div className="relative z-10 px-6 md:px-14 pb-16 md:pb-20 max-w-6xl mx-auto w-full">
+          <div className="relative mt-20 z-10 px-6 md:px-14 pb-16 md:pb-20 max-w-6xl mx-auto w-full">
             <span
               className="inline-block text-[11px] font-bold uppercase tracking-[0.18em] px-3 py-1.5 rounded-full mb-6"
               style={{
