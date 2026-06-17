@@ -140,7 +140,7 @@ export default function OpenPage() {
 
             <h1
               className="font-display font-extrabold text-white leading-[0.96] tracking-tight mb-6"
-              style={{ fontSize: "clamp(52px, 9vw, 128px)" }}
+              style={{ fontSize: "clamp(28px, 10vw, 128px)" }}
             >
               Waveclubs<br />
               <span
@@ -177,7 +177,7 @@ export default function OpenPage() {
               </Link>
             </div>
 
-            <div className="flex flex-wrap gap-x-10 gap-y-4 mt-14 pt-10 border-t border-white/10">
+            <div className="flex flex-wrap gap-x-6 sm:gap-x-10 gap-y-4 mt-10 md:mt-14 pt-10 border-t border-white/10">
               {[
                 { n: "4", label: "Competition stops" },
                 { n: "3", label: "Individual categories" },
